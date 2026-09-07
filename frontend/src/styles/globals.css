@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #64748B;
+  --color-accent: #F97316;
+  --color-red: #DC2626;
+  --color-indigo: #6366f1;
+  --color-violet: #8b5cf6;
+  --gradient-header-primary: linear-gradient(135deg, #1e1b4b 0%, #0f172a 55%, #020617 100%);
+  --gradient-panel-dark: linear-gradient(135deg, #0f172a, #020617);
+  --gradient-soft-surface: radial-gradient(120% 120% at 80% 0%, #1e1b4b 0%, #0f172a 55%, #020617 100%);
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #020617;
+  color: #e2e8f0;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: none; }
+}
+.animate-fade-up { animation: fade-up 0.7s ease both; }

@@ -1,0 +1,5 @@
+INSERT INTO features (slug, title, description, icon) VALUES ('lightning-fast', 'Lightning Fast', 'Blazing fast performance optimized for modern workflows.', 'Zap') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO features (slug, title, description, icon) VALUES ('secure-vault', 'Secure by Default', 'Enterprise-grade security baked into every layer.', 'Shield') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO features (slug, title, description, icon) VALUES ('scalable-infra', 'Scalable Infrastructure', 'Grows with your business from startup to enterprise.', 'TrendingUp') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO features (slug, title, description, icon) VALUES ('smart-analytics', 'Smart Analytics', 'Actionable insights powered by real-time data processing.', 'BarChart3') ON CONFLICT (slug) DO NOTHING;
+INSERT INTO features (slug, title, description, icon) VALUES ('seamless-integration', 'Seamless Integrations', 'Connect with hundreds of tools you already use.', 'Plug') ON CONFLICT (slug) DO NOTHING;

@@ -1,0 +1,20 @@
+[
+  {
+    "method": "GET",
+    "path": "/api/features",
+    "auth_required": false,
+    "sample_params": {},
+    "sample_body": null,
+    "success_status": 200,
+    "response_shape": [{"id": 1, "title": "string", "description": "string", "icon": "string"}]
+  },
+  {
+    "method": "GET",
+    "path": "/api/health",
+    "auth_required": false,
+    "sample_params": {},
+    "sample_body": null,
+    "success_status": 200,
+    "response_shape": {"status": "string"}
+  }
+]

@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS features (
+  id SERIAL PRIMARY KEY,
+  slug TEXT UNIQUE NOT NULL,
+  title TEXT NOT NULL,
+  description TEXT NOT NULL,
+  icon TEXT
+);
